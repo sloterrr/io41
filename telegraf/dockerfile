@@ -10,7 +10,7 @@ ENV TELE_CONF_PATH="/etc/telegraf"
 # Provisioning
 #COPY --chown=grafana:root provisioning $GF_PATHS_PROVISIONING
 ###### Customization ########################################
-USER root
+# USER root
 
 # Replace Faviconpu
-COPY /home/debian/telegraf/telegraf.conf TELE_CONF_PATH
+# COPY /home/debian/telegraf/telegraf.conf TELE_CONF_PATH
